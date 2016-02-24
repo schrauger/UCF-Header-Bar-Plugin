@@ -1,22 +1,21 @@
-=== UCF Heder Bar ===
-Contributors: jhendricker
-Donate link: 
-Tags: ucf, header bar
-Requires at least: 3.9
-Tested up to: 4.4.2
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# UCF Heder Bar #
+**Contributors:** jhendricker
+**Tags:** ucf, header bar
+**Requires at least:** 3.9
+**Tested up to:** 4.4.2
+**Stable tag:** trunk
+**License:** GPLv2 or later
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 Add the UCF Header bar into any WordPress website. Recommended for use on all UCF WordPress websites.
 
-== Description ==
+## Description ##
 
 The UCF Header Bar plugin allows the simple inclusion of the [UCF Header bar](https://universityheader.ucf.edu/) into your UCF WordPress website using enqueue_script.  The UCF University Header is a cohesive marketing and branding tool for the entire university. It provides consistent navigational elements and a universal search feature with search suggestions.
 
 The University Header has a responsive option and will adapt to various screen sizes as necessary. Responsiveness follows Twitter Bootstrap's breakpoint standards.
 
-== Installation ==
+## Installation ##
 
 Installation is quick and easy with only one setting.
 
@@ -24,33 +23,33 @@ Installation is quick and easy with only one setting.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the Settings->UCF Header Bar screen to configure the plugin if your site's max-width is larger than 1200px.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions ##
 
-= Where will the UCF Header Bar be added? =
+### Where will the UCF Header Bar be added? ###
 
 The UCF Header Bar should be visible at the top of your website right after the opening `<body>` tag.
 
-= Are there any settings? =
+### Are there any settings? ###
 
 For sites with a max-width greater than 1200px please go to the plugin settings found under Settings->UCF Header Bar and check the box.
 
-= Why isn't the UCF Header Bar acting responsively? =
+### Why isn't the UCF Header Bar acting responsively? ###
 
 To utilize a responsive bar, simple make sure your sites `<head` includes the following `<meta>` tag:
 
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 
-= Are there any known issues with themes? =
+### Are there any known issues with themes? ###
 
 There are some themes that have sticky headers that can conflict with the UCF Header Bar implementation.  If your theme has a sticky header, please test its functionality after activating the UCF Header Bar plugin.
 
-== Screenshots ==
+## Screenshots ##
 
-1. screenshot-1.jpg
-2. screenshot-2.png
+1. screenshot-1.jpg ![UCF Header Bar picture](https://github.com/strmtrpr83/UCF-Header-Bar-Plugin/blob/master/screenshot-1.jpg)
+2. screenshot-2.png ![UCF Header Bar picture](https://github.com/strmtrpr83/UCF-Header-Bar-Plugin/blob/master/screenshot-2.png)
 
-== Changelog ==
+## Changelog ##
 
-= 1.0 =
+### 1.0 ###
 * Initial plugin submission.
 * Tested on WordPress 4.4.2.
