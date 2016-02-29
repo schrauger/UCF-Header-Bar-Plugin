@@ -3,7 +3,7 @@
 * Plugin Name: UCF Header Bar Plugin
 * Plugin URI: https://universityheader.ucf.edu/
 * Description: Enqueue the UCF Header Bar into any WordPress website. Options page for sites with a max-width larger than 1200px.
-* Version: 1.0 
+* Version: 1.03
 * Author: Jonathan Hendrcker
 * Author URI: http://www.cos.ucf.edu/it
 * License: GPL12
@@ -38,7 +38,6 @@ class UCFHeaderBar {
 		<div class="wrap">
 			<h2>UCF Header Bar</h2>
 			<p></p>
-			<?php settings_errors(); ?>
 
 			<form method="post" action="options.php">
 				<?php

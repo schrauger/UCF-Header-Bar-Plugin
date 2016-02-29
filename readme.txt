@@ -1,10 +1,10 @@
-=== UCF Heder Bar ===
+=== UCF Header Bar ===
 Contributors: jhendricker
 Donate link: 
 Tags: ucf, header bar
 Requires at least: 3.9
 Tested up to: 4.4.2
-Stable tag: trunk
+Stable tag: 1.03
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,15 @@ There are some themes that have sticky headers that can conflict with the UCF He
 2. screenshot-2.png
 
 == Changelog ==
+
+= 1.03 =
+* Fixed another typo
+
+= 1.02 =
+* Fixed a typo
+
+= 1.01 =
+* Removed duplicate "Settings Saved" announcement
 
 = 1.0 =
 * Initial plugin submission.
