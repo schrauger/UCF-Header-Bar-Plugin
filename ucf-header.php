@@ -3,9 +3,10 @@
 * Plugin Name: UCF Header Bar Plugin
 * Plugin URI: https://universityheader.ucf.edu/
 * Description: Enqueue the UCF Header Bar into any WordPress website. Options page for sites with a max-width larger than 1200px.
-* Version: 1.03
+* Version: 1.04
 * Author: Jonathan Hendrcker
 * Author URI: http://www.cos.ucf.edu/it
+* Contributors: Stephen Schrauger
 * License: GPL12
 */
 
@@ -120,10 +121,22 @@ function ucf_header_script() {
 	else {
 		// Register the >1200px script version
 		if ( $wide_site === 'site_s_max_width_is_larger_than_1200px_0' )
-			wp_register_script( 'ucfhb-script', '//universityheader.ucf.edu/bar/js/university-header.js?use-1200-breakpoint=1');
+			wp_register_script(
+				'ucfhb-script',
+				'//universityheader.ucf.edu/bar/js/university-header.js?use-1200-breakpoint=1',
+				array(),
+				'1.04',
+				true
+			);
 		// Regsister the default version
 		else 
-			wp_register_script( 'ucfhb-script', '//universityheader.ucf.edu/bar/js/university-header.js');
+			wp_register_script(
+				'ucfhb-script',
+				'//universityheader.ucf.edu/bar/js/university-header.js',
+				array(),
+				'1.04',
+				true
+			);
 		wp_enqueue_script( 'ucfhb-script' );
 	}
 } 
@@ -140,3 +153,4 @@ function add_id_to_ucfhb($url) {
     return $url;
 }
 add_filter('clean_url', 'add_id_to_ucfhb', 10, 3);
+
