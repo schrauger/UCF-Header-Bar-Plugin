@@ -1,5 +1,5 @@
 # UCF Heder Bar #
-**Contributors:** jhendricker, schrauger 
+**Contributors:** jhendricker, schrauger  
 **Tags:** ucf, header bar  
 **Requires at least:** 3.9  
 **Tested up to:** 4.4.2  
