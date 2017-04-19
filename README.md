@@ -1,5 +1,5 @@
 # UCF Heder Bar #
-**Contributors:** jhendricker  
+**Contributors:** jhendricker, schrauger 
 **Tags:** ucf, header bar  
 **Requires at least:** 3.9  
 **Tested up to:** 4.4.2  
@@ -51,6 +51,9 @@ There are some themes that have sticky headers that can conflict with the UCF He
 ![UCF Header Bar picture](https://github.com/strmtrpr83/UCF-Header-Bar-Plugin/blob/master/screenshot-2.png)
 
 ## Changelog ##
+
+#### 1.04 ####
+* Loads js include in the footer for optimization
 
 #### 1.0 ####
 * Initial plugin submission.
